@@ -1,0 +1,5 @@
+FROM nginxinc/nginx-unprivileged:1.27.2-alpine
+
+ADD index.html /usr/share/nginx/html
+ADD assets /usr/share/nginx/html/assets
+ADD images /usr/share/nginx/html/images
